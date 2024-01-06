@@ -8,6 +8,21 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+  build: {
+    lib: {
+      entry: "src/lib/VuePrettyHotspotPlugin.js",
+      name: "VuePrettyHotspot",
+      fileName: "vue-pretty-hotspot",
+    },
+    rollupOptions: {
+      external: ["vue"],
+      output: {
+        globals: {
+          vue: "Vue",
+        },
+      },
+    },
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
