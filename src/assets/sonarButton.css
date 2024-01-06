@@ -1,0 +1,60 @@
+.sonarBtn{
+    background-color: white;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 3;
+}
+
+.sonarBtn::after{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    animation: pulse 2s ease-in-out infinite;
+    z-index: 1;
+}
+
+.sonarBtn::before{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff66;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    animation: innerPulse 2s ease-in-out infinite;
+    z-index: 2;
+}
+
+@keyframes pulse {
+    0% {
+        scale: 0;
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        scale: 1.25;
+    }
+}
+
+@keyframes innerPulse {
+    0%, 100%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.2);
+    }
+}
