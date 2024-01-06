@@ -1,6 +1,6 @@
 {
   "name": "vue-pretty-hotspot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "type": "module",
   "files": ["dist"],
@@ -31,5 +31,22 @@
     "eslint-plugin-vue": "^9.17.0",
     "prettier": "^3.0.3",
     "vite": "^5.0.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoozmehrKnight/vue-pretty-hotspot.git"
+  },
+  "keywords": [
+    "vue",
+    "theme",
+    "color",
+    "colour",
+    "management"
+  ],
+  "author": "Reza Golian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoozmehrKnight/vue-pretty-hotspot/issues"
+  },
+  "homepage": "https://github.com/RoozmehrKnight/vue-pretty-hotspot"
 }
