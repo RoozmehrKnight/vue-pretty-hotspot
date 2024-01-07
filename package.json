@@ -1,6 +1,6 @@
 {
   "name": "vue-pretty-hotspot",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "private": false,
   "type": "module",
   "files": ["dist"],
@@ -38,10 +38,10 @@
   },
   "keywords": [
     "vue",
-    "theme",
-    "color",
-    "colour",
-    "management"
+    "hotspot",
+    "collection",
+    "pretty-hotspot",
+    "component"
   ],
   "author": "Reza Golian",
   "license": "ISC",
