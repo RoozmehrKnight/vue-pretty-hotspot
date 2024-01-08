@@ -1,5 +1,6 @@
 # Vue-Pretty-Hotspot
 A simple, smart and elegant package for creating hotspot images in vue js
+<br><a href="https://prettyhotspot.rezagolian.com">Live Example</a>
 
 ## Installation
 ```
